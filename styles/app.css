@@ -1,0 +1,265 @@
+
+:root
+{
+    --white : #FFFFFF;
+    --light-color : #F5F5F5;
+    --low-priority : #848191;
+    --primary-color : #7562E0;
+    --secondry-color : #282162;
+    --dark-color : #000036;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::after,*::before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "Roboto-Regular";
+    background-color: var(--dark-color);
+}
+
+/* Helper Class */
+.btn-purple
+{
+    color: var(--primary-color) !important;
+}
+.btn-bgc_purple
+{
+    background-color: var(--primary-color) !important;
+}
+.btn-brd_purple
+{
+    border: 0.3rem solid var(--primary-color);
+    padding: 1.2rem 3rem !important;
+}
+.btn-grey
+{
+    background-color: var(--grey);
+    color: var(--dark-btn);
+    font-family: "Roboto-Medium";
+}
+.btn-white
+{
+    color: var(--orange);
+    background-color: var(--white);
+    border: 1px solid var(--orange);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+/* Nav Section */
+.container{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 2.4rem;
+}
+.logo
+{
+font-family: "Poppins-SemiBold";
+font-size: 6rem;
+color: var(--primary-color);
+}
+.nav-menu{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4rem;
+}
+
+.nav-menu_item{
+font-family: "Poppins-Medium";
+}
+.nav-menu_link
+{
+    color: var(--white);
+text-decoration: none;
+outline: none;
+}
+
+/* Header Content Section */
+
+.header
+{
+
+}
+.header-content
+{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 14.9rem;
+margin-top: 11.9rem;
+}
+.header-content_concept
+{
+
+}
+.header-content_title
+{
+    font-family: "Poppins-SemiBold";
+    font-size: 3.2rem;
+    color: var(--white);
+}
+.header-content_subtitle
+{
+    font-family: "Poppins-SemiBold";
+    font-size: 4.2rem;
+    color: var(--white);
+}
+.header-content_caption
+{
+    font-family: "Poppins-Medium";
+    font-size: 1.5rem;
+    color: var(--white);
+    max-width: 34rem;
+}
+.header-links
+{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 3.3rem;
+margin-top: 3rem;
+}
+.header-link
+{
+text-decoration: none;
+outline: none;
+font-family: "Poppins-Medium";
+font-size: 1.6rem;
+color: var(--white);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.6rem;
+padding: 1.2rem 2.4rem;
+border-radius: 0.8rem;
+}
+.header-content_image
+{
+    width: 37rem;
+    height: 44rem;
+}
+
+
+.about {
+    padding: 20px;
+    
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about__container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .about__description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .about__skills-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .about__experience {
+    display: flex;
+    align-items: left;
+    justify-content:flex-start;
+    gap: 10px;
+  }
+  
+  .about__years {
+    font-size: 48px;
+    font-weight: bold;
+    color: #6a5acd;
+  }
+  
+  .about__specialization {
+    font-size: 16px;
+    max-width: 400px;
+    line-height: 1.5;
+  }
+
+/* Header Widget */
+
+.container-2
+{
+    margin-left: -3rem;
+}
+.header-widgets
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: -47rem;
+}
+
+
+.header-widget_sevice
+{
+    width: 34rem;
+    height: 22rem;
+background-color:var(--low-priority);
+padding: 5rem;
+
+margin-bottom: -22rem;
+}
+.header-widget_service_image
+{
+    display: flex;
+    margin: auto;
+    
+}
+
+.header-widget_sevice-selection
+{
+    width: 34rem;
+    height: 22rem;
+background-color:var(--primary-color);
+padding: 5rem;
+
+margin-bottom: -22rem;
+
+}
+
+.header-widget_sevice_title
+{
+text-align: center;
+font-family: "Archivo-Black";
+color: var(--light-color);
+font-size: 2rem;
+}
+.header-widget_sevice_caption
+{
+text-align: center;
+font-size: 2rem;
+color: var(--light-color);
+}
